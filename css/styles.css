@@ -1,0 +1,56 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.container .navbar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+}
+
+.container .navbar-menu {
+    display: flex;
+    margin-left: 100px;
+    list-style: none;
+}
+
+.container nav ul li {
+    margin-right: 30px;
+}
+
+.container nav ul li a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.hero-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    background: #FBDFDB;
+    border-radius: 30px;
+}
+
+.hero-container .hero-info {
+    margin: 60px;
+    justify-self: center;
+}
+
+.hero-container .hero-info h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    line-height: 42px;
+}
+
+.hero-container .hero-info p {
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 70%;
+}
+
+.hero-container img {
+    margin-top: 66px;
+    justify-self: center;
+}

@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #FFF;
+}
+
+h1, h2, a, p {
+    font-family: 'Roboto', sans-serif;
+    color: #111;
+}
