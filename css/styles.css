@@ -119,3 +119,11 @@ footer p {
     text-align: center;
     color: #999999;
 }
+
+.modal-overlay {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+}
