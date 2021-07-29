@@ -65,6 +65,10 @@ main {
     margin-top: 20px;
 }
 
+.recipes .recipe:hover {
+    cursor: pointer;
+}
+
 .recipes .recipe img {
     width: 100%;
     border-radius: 15px;
@@ -119,11 +123,49 @@ footer p {
     text-align: center;
     color: #999999;
 }
-
+ 
 .modal-overlay {
     width: 100vw;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background: rgb(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.modal {
+    width: 90%;
+    max-width: 660px;
+    border-radius: 16px;
+    padding: 30px;
+    background: #FFF;
+    text-align: center;
+}
+
+.content {
+    margin-bottom: 60px;
+}
+
+.content img {
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    object-fit: cover;
+}
+
+.close-modal {
+    color: #999999;
+}
+
+.close-modal:hover {
+    cursor: pointer;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
 }
